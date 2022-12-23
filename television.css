@@ -1,0 +1,244 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+/* Encabezado */
+
+.logo{
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    padding-right: 50%;
+    padding-left: 50%;
+}
+.logo img{
+    width: 105px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+
+/* Parte central - Televisión */
+
+.texto-central {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.texto-central img{
+    width: 380px;
+    height: 200px;
+    margin-left: 35%;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+/* Canales locales */
+
+.canales-locales{
+    display: flex;
+}
+
+.titulo-canales-locales{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 30px;
+}
+#Ocho-Mardel{
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Diez-Mardel{
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Siete-Bahia{
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Grupo-Telefe{
+    width: 130px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Doce-Cordoba{
+    width: 110px;
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Diez-Cordoba{
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#El-tres{
+    width: 120px;
+    height: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Nueve-Litoral{
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Diez-RN{
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Canales nacionales */
+
+.titulo-canales-nacionales{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 30px;
+}
+
+.canales-nacionales{
+    display: flex;
+}
+
+#America{
+    width: 65px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#TVP{
+    width: 170px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#El-nueve{
+    width: 60px;
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Telefe{
+    width: 125px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#El-trece{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Net{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* Canales internacionales */
+
+.titulo-canales-internacionales{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 30px;
+}
+
+.titulo-streaming{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 30px;
+}
+
+/* Streaming */
+
+.streaming{
+    display: flex;
+}
+
+#Netflix{
+    width: 170px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Disney-Plus{
+    width: 140px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Star-Plus{
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#HBO-Max{
+    width: 170px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Amazon-Prime{
+    width: 140px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*Pie de página*/
+
+.pie-de-pagina{
+    display: flex;
+    background-color: rgb(11, 87, 58);
+    padding-bottom: 2%;
+}
+
+.texto-encabezado-final p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    color: beige;
+
+}
+.logo-encabezado-final img{
+    width: 160px;
+    height: 60px;
+    padding: 40px;
+}
+
+.redes-sociales-encabezado-final img{
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px 8px 8px;
+}
+
+.redes-sociales-encabezado-final p{
+    font-family: 'Work Sans', sans-serif;
+    color: beige;
+    margin-left: 10px;
+}

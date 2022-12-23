@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+/*Pie de página*/
+
+.pie-de-pagina{
+    display: flex;
+    background-color: rgb(11, 87, 58);
+    padding-bottom: 2%;
+}
+
+.texto-encabezado-final p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    color: beige;
+
+}
+.logo-encabezado-final img{
+    width: 160px;
+    height: 60px;
+    padding: 40px;
+}
+
+.redes-sociales-encabezado-final img{
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px 8px 8px;
+}
+
+.redes-sociales-encabezado-final p{
+    font-family: 'Work Sans', sans-serif;
+    color: beige;
+    margin-left: 10px;
+}
+
+/*Parte central*/
+
+.texto{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding-top: 9%;
+}
+
+.menu-central{
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 7%;
+    padding-left: 80px;
+}
+
+.parte-central-internet img{
+    width: 380px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 20px; 
+}
+
+.parte-central-internet h1{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.parte-central-celu img{
+    width: 380px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.parte-central-celu h1{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.parte-central-tele img{
+    width: 380px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.parte-central-tele h1{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+/*Encabezado de inicio + boton de Iniciar sesión*/
+
+#btn-iniciar-sesion{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(11, 87, 58);
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    margin-left: 1200px;
+    cursor: pointer;
+}
+
+.inicio li{
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.encabezado img{
+    width: 105px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+.encabezado{
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+}

@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+/*Encabezado de inicio*/
+
+.logo-sesion img{
+    width: 105px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+.logo-sesion{
+    background-color: rgb(49, 49, 49);
+    padding-left: 40%;
+    padding-right: 45%;
+}

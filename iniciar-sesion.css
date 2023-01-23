@@ -7,20 +7,20 @@ body{
 
 .formulario{
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
 }
 
 #usuario{
     width: 250px;
     height: 25px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
 }
 
 #contraseña{
     width: 250px;
     height: 25px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
 }
 
 #btn-entrar{
@@ -30,10 +30,10 @@ body{
     color: azure;
     border: none;
     border-radius: 5px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     font-size: medium;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     cursor: pointer;
 }
 

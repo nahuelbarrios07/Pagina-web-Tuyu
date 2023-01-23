@@ -7,20 +7,20 @@ body{
 
 .pie-de-pagina{
     display: flex;
-    background-color: rgb(11, 87, 58);
+    background-color: rgb(6, 3, 43);
     padding-bottom: 2%;
 }
 
 .texto-encabezado-final p{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     font-size: medium;
-    font-weight: 300;
+    font-weight: 400;
     color: beige;
 
 }
 .logo-encabezado-final img{
-    width: 160px;
-    height: 60px;
+    width: 140px;
+    height: 140px;
     padding: 40px;
 }
 
@@ -31,7 +31,7 @@ body{
 }
 
 .redes-sociales-encabezado-final p{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     color: beige;
     margin-left: 10px;
 }
@@ -39,7 +39,7 @@ body{
 /*Parte central*/
 
 .texto{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     text-align: center;
     padding-top: 9%;
 }
@@ -59,7 +59,7 @@ body{
 }
 
 .parte-central-internet h1{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ body{
 }
 
 .parte-central-celu h1{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     text-align: center;
 }
 
@@ -83,7 +83,7 @@ body{
 }
 
 .parte-central-tele h1{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     text-align: center;
 }
 
@@ -92,11 +92,11 @@ body{
 #btn-iniciar-sesion{
     width: 140px;
     height: 40px;
-    background-color: rgb(11, 87, 58);
+    background-color: rgb(6, 3, 43);
     color: azure;
     border: none;
     border-radius: 5px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
     font-size: larger;
     font-weight: 300;
     margin-left: 1200px;
@@ -105,16 +105,23 @@ body{
 
 .inicio li{
     display: flex;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
 }
 
 .encabezado img{
-    width: 105px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     margin-left: 50%;
-    margin-top: 1%;
 }
 .encabezado{
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(6, 3, 43);
     position: fixed;
+}
+
+/*Web Responsive - Desktop*/
+
+@media screen and (max-width: 815px){
+    .encabezado img{
+        margin-left: 50%;
+    }
 }

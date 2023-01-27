@@ -1,5 +1,5 @@
 function validarUsuario(){
-    let usuario = document.getElementById("btn-iniciar-sesion");
+    let usuario = document.getElementById("btn-cuenta-tuyu");
 
     window.location.href = "iniciar-sesion.html";
 }

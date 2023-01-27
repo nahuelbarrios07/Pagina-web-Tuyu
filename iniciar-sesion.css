@@ -24,29 +24,27 @@ body{
 }
 
 #btn-entrar{
-    width: 100px;
-    height: 30px;
-    background-color: rgb(11, 87, 58);
-    color: azure;
-    border: none;
-    border-radius: 5px;
+    width: 135px;
+    height: 35px;
+    background-color: rgb(6, 3, 43);
+    color: aliceblue;
     font-family: 'Sora', sans-serif;
     font-size: medium;
-    text-align: center;
-    font-weight: 400;
+    border: none;
+    border-radius: 2px;
     cursor: pointer;
 }
 
 /*Encabezado de inicio*/
 
 .logo-sesion img{
-    width: 105px;
-    height: 40px;
+    width: 100px;
+    height: 65px;
     margin-left: 50%;
     margin-top: 1%;
 }
 .logo-sesion{
-    background-color: rgb(49, 49, 49);
+    background-color:rgb(6, 3, 43);
     padding-left: 40%;
     padding-right: 45%;
 }

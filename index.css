@@ -1,39 +1,51 @@
-body{
+*{
     margin:0;
     padding:0;
 }
 
-/*Pie de página*/
+/*Encabezado de inicio + boton de Mi cuenta Tuyú*/
 
-.pie-de-pagina{
-    display: flex;
+.contenedor {
     background-color: rgb(6, 3, 43);
-    padding-bottom: 2%;
+    font-family: 'Sora', sans-serif;
 }
 
-.texto-encabezado-final p{
+menu{
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+    height: 65px;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#btn-cuenta-tuyu{
+    width: 135px;
+    height: 35px;
+    background-color: aliceblue;
+    color: rgb(6, 3, 43);
     font-family: 'Sora', sans-serif;
     font-size: medium;
-    font-weight: 400;
-    color: beige;
-
-}
-.logo-encabezado-final img{
-    width: 140px;
-    height: 140px;
-    padding: 40px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
-.redes-sociales-encabezado-final img{
-    width: 40px;
-    height: 40px;
-    padding: 8px 8px 8px 8px;
-}
 
-.redes-sociales-encabezado-final p{
-    font-family: 'Sora', sans-serif;
-    color: beige;
-    margin-left: 10px;
+.contenedor .encabezado{
+    background-color: rgb(6, 3, 43);
+    height: 70px;
+    position: fixed;
 }
 
 /*Parte central*/
@@ -87,35 +99,53 @@ body{
     text-align: center;
 }
 
-/*Encabezado de inicio + boton de Iniciar sesión*/
+/*Banner de Whatsapp*/
 
-#btn-iniciar-sesion{
-    width: 140px;
-    height: 40px;
-    background-color: rgb(6, 3, 43);
-    color: azure;
-    border: none;
-    border-radius: 5px;
+.banner-whatsapp{
     font-family: 'Sora', sans-serif;
-    font-size: larger;
-    font-weight: 300;
-    margin-left: 1200px;
-    cursor: pointer;
+    padding-left: 40px;
+    color: aliceblue;
+    background-image: url(./Imagenes/Fondo\ Whatsapp.jpg);
+    background-position: center;
+    margin-left: 7.4%;
+    border-radius: 20px;
 }
 
-.inicio li{
+.banner-whatsapp-nro{
     display: flex;
-    font-family: 'Sora', sans-serif;
 }
 
-.encabezado img{
-    width: 80px;
-    height: 80px;
-    margin-left: 50%;
-}
-.encabezado{
+/*Pie de página*/
+
+.pie-de-pagina{
+    display: flex;
     background-color: rgb(6, 3, 43);
-    position: fixed;
+    padding-bottom: 2%;
+}
+
+.texto-encabezado-final p{
+    font-family: 'Sora', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    color: beige;
+
+}
+.logo-encabezado-final img{
+    width: 140px;
+    height: 140px;
+    padding: 40px;
+}
+
+.redes-sociales-encabezado-final img{
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px 8px 8px;
+}
+
+.redes-sociales-encabezado-final p{
+    font-family: 'Sora', sans-serif;
+    color: beige;
+    margin-left: 10px;
 }
 
 /*Web Responsive - Desktop*/

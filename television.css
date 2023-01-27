@@ -21,6 +21,9 @@ body{
 /* Parte central - Televisión */
 
 .texto-central {
+    background-color: rgb(209, 178, 4);
+    height: 30px;
+    width: 30px;
     font-family: 'Sora', sans-serif;
 }
 

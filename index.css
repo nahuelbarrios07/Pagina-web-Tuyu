@@ -5,13 +5,17 @@
 
 /*Encabezado de inicio + boton de Mi cuenta Tuyú*/
 
-.contenedor {
+.contenedor{
     background-color: rgb(6, 3, 43);
     font-family: 'Sora', sans-serif;
+    margin-left: 20px;
 }
 
 menu{
+    font-size: 15px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -20,7 +24,7 @@ menu{
     text-align: center;
 }
 
-.menu li {
+.menu ul {
     list-style: none;
 }
 
@@ -39,13 +43,6 @@ menu{
     border: none;
     border-radius: 2px;
     cursor: pointer;
-}
-
-
-.contenedor .encabezado{
-    background-color: rgb(6, 3, 43);
-    height: 70px;
-    position: fixed;
 }
 
 /*Parte central*/
@@ -102,17 +99,30 @@ menu{
 /*Banner de Whatsapp*/
 
 .banner-whatsapp{
+    grid-template-columns: repeat(3,1f);
+}
+
+.banner-whatsapp{
     font-family: 'Sora', sans-serif;
     padding-left: 40px;
     color: aliceblue;
     background-image: url(./Imagenes/Fondo\ Whatsapp.jpg);
-    background-position: center;
+    background-position-y: center;
+    flex-direction: column;
+    max-width: 85%;
     margin-left: 7.4%;
     border-radius: 20px;
 }
 
-.banner-whatsapp-nro{
-    display: flex;
+.banner-whatsapp img{
+    width: 60px;
+    height: 60px;
+}
+
+.banner-whatsapp p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
 }
 
 /*Pie de página*/
@@ -121,31 +131,73 @@ menu{
     display: flex;
     background-color: rgb(6, 3, 43);
     padding-bottom: 2%;
+    color: beige;
+    text-align: center;
 }
 
-.texto-encabezado-final p{
+.direccion p{
     font-family: 'Sora', sans-serif;
-    font-size: medium;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
     font-weight: 400;
     color: beige;
 
 }
-.logo-encabezado-final img{
+.logo-final img{
     width: 140px;
-    height: 140px;
-    padding: 40px;
+    height: 90px;
+    margin-left: 30% 30% 30% 30%;
 }
 
-.redes-sociales-encabezado-final img{
+.redes-sociales{
+    font-family: 'Sora', sans-serif;
+    padding-left: 38%;
+}
+
+#Facebook{
     width: 40px;
     height: 40px;
-    padding: 8px 8px 8px 8px;
+    padding: 10px 10px 10px 10px;
 }
 
-.redes-sociales-encabezado-final p{
+#Instagram{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+#Linkedin{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Twitter{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Youtube{
+    width: 58px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.redes-sociales p{
     font-family: 'Sora', sans-serif;
     color: beige;
     margin-left: 10px;
+}
+
+/*Texto del autor*/
+
+.texto-autor{
+    background-color: rgb(6, 3, 43);
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
 }
 
 /*Web Responsive - Desktop*/

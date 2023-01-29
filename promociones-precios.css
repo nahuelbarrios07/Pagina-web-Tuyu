@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Encabezado */
+
+.logo{
+    background-color: rgb(6, 3, 43);
+    position: fixed;
+    padding-right: 50%;
+    padding-left: 50%;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+
+/* Parte central - Promociones y precios*/
+
+.banner-promociones {
+    font-family: 'Sora', sans-serif;
+    padding-top: 13%;
+    background-image: url(./Imagenes/Control\ de\ televisor.jpg);
+    background-position: center;
+}
+
+.banner-promociones p{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-bottom: 40px;
+    text-shadow: 3px 3px 7px black;
+}
+
+/*Pie de página*/
+
+.pie-de-pagina{
+    display: flex;
+    background-color: rgb(6, 3, 43);
+    padding-bottom: 2%;
+    color: beige;
+    text-align: center;
+}
+
+.direccion p{
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 400;
+    color: beige;
+
+}
+.logo-final img{
+    width: 140px;
+    height: 90px;
+    margin-left: 30% 30% 30% 30%;
+}
+
+.redes-sociales{
+    font-family: 'Sora', sans-serif;
+    padding-left: 38%;
+}
+
+#Facebook{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Instagram{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+#Linkedin{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Twitter{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Youtube{
+    width: 58px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.redes-sociales p{
+    font-family: 'Sora', sans-serif;
+    color: beige;
+    margin-left: 10px;
+}
+
+/*Texto del autor*/
+
+.texto-autor{
+    background-color: rgb(6, 3, 43);
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
+}
